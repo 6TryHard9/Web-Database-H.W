@@ -1,0 +1,142 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh; 
+    background-color: #f9f9f9; 
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50; 
+    color: white; 
+    flex-shrink: 0; 
+}
+
+.header-image {
+    max-width: 5%; 
+    height: auto; 
+    border-radius: 10px; 
+}
+
+
+.top-menu-bar {
+    background-color: #333; 
+    color: white; 
+    padding: 10px;
+    flex-shrink: 0; 
+}
+
+.top-menu-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.top-menu-bar ul li {
+    margin: 0 15px;
+}
+
+.top-menu-bar ul li a {
+    color: white; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top-menu-bar ul li a:hover {
+    color: #4CAF50; 
+    text-decoration: underline;
+}
+
+
+.container {
+    display: flex;
+    flex: 1; 
+    margin: 0px 0; 
+}
+
+
+.sidebar {
+    flex: 30%;
+    background-color: #333; 
+    color: white; 
+    padding: 20px;
+    min-width: 200px; 
+    text-align: center; 
+}
+
+.sidebar-image {
+    max-width: 50%; 
+    height: auto; 
+    border-radius: 100px; 
+    margin-bottom: 20px; 
+}
+
+.sidebar h3 {
+    font-size: 16px; 
+    line-height: 1.5;
+    color: #fff;
+}
+
+
+.content {
+    flex: 70%;
+    padding: 20px;
+    overflow-y: auto; 
+    background-color: white; 
+}
+
+.content h2 {
+    color: #333; 
+    margin-bottom: 20px; 
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #4CAF50; 
+    color: white; 
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+table tr:hover {
+    background-color: #ddd; 
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50; 
+    color: white; 
+    flex-shrink: 0; 
+}
